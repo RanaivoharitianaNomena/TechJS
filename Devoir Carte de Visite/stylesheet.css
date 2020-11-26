@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: white;
+}
+
+p {margin:0px;}
+
+article {height:110px;
+background-color: black;
+padding-top:10px;
+padding-left:10px;
+color:white;
+}
+
+.carte{
+  width: 45em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: green;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.information {
+  font-size: 150%;
+}
+.carte header{
+
+  border-radius: 1.5em 1.5em 0 0;
+height:30px;
+  padding:10px;
+}
+
+.carte footer{
+
+  border-radius: 0 0 1.5em 1.5em;
+  float:right;
+  font-size:14px;
+}
